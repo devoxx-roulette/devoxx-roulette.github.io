@@ -43,7 +43,7 @@ $( document ).ready( function() {
             var id = $(chosen).attr("data-id");
             selector.delay(800).fadeOut(500, function() { 
                 $(this).hide(); 
-                $('#play').text("Play another random conference");
+                $('#play').text("Watch another random conference");
                 $('.videoContainer').append('<iframe id="ytplayer" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/'+id+'?autoplay=1" frameborder="0" allowfullscreen/>')
             });
         });

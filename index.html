@@ -11,10 +11,11 @@
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -36,7 +37,13 @@
         </div>
 
         <div id="playdiv">
-            <a class="btn" id="play">Play a random conference</a>
+            <a class="btn" id="play">Watch a random conference</a>
+        </div>
+
+        <div class="social"> 
+            <a href="http://twitter.com/home?status=I%20watched%20a%20random%20Devoxx%20France%20conference%20on%20https%3A%2F%2Fdevoxx-roulette.github.io%20and%20it%20was%20awesome%21%20%23DevoxxRoulette%20%23DevoxxFR" title="Share on Twitter" target="_blank">
+                <i id="twitter-wjs" class="fab fa-twitter fa-3x"></i>
+            </a>
         </div>
 
         <!-- Add your site or application content here -->
@@ -45,6 +52,8 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <script src="https://platform.twitter.com/widgets.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
